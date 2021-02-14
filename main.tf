@@ -14,7 +14,7 @@ terraform {
         version = "3.5.0"
     }
   }
-
+}
 
 provider "google" {
     credentials = "${GOOGLE_APPPLICATION_CREDENTIALS}"
