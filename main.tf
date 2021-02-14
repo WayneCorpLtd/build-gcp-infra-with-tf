@@ -1,3 +1,5 @@
+variable "GOOGLE_APPPLICATION_CREDENTIALS" {}
+
 terraform {
   required_version = ">= 0.12"
   backend "remote" {
