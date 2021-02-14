@@ -1,4 +1,4 @@
-variable "GOOGLE_APPPLICATION_CREDENTIALS" {}
+variable "GOOGLE_APPLICATION_CREDENTIALS" {}
 
 terraform {
   required_version = ">= 0.12"
@@ -19,7 +19,7 @@ terraform {
 }
 
 provider "google" {
-    credentials = var.GOOGLE_APPPLICATION_CREDENTIALS
+    credentials = var.GOOGLE_APPLICATION_CREDENTIALS
     project = "zinc-fusion-288207"
     region = "us-central1"
     zone = "us-central1-c"
