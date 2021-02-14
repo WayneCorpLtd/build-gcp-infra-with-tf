@@ -17,7 +17,7 @@ terraform {
 }
 
 provider "google" {
-    credentials = "${GOOGLE_APPPLICATION_CREDENTIALS}"
+    #credentials = "${GOOGLE_APPPLICATION_CREDENTIALS}"
     project = "zinc-fusion-288207"
     region = "us-central1"
     zone = "us-central1-c"
